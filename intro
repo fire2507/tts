@@ -1,0 +1,18 @@
+/TTS-fine-tuning-assignment/
+│
+├── data/
+│   ├── sample_audio.wav       # Sample audio (mock example)
+│   ├── transcripts.csv        # Sample transcript CSV (mock example)
+│   └── README.md              # Dataset instructions
+│
+├── scripts/
+│   ├── fine_tune_english.py   # Python script for Task 1 (English TTS fine-tuning)
+│   ├── fine_tune_regional.py  # Python script for Task 2 (Regional language TTS fine-tuning)
+│   └── inference_test.py      # Python script for inference testing
+│
+├── README.md                  # Main README with setup and run instructions
+│
+├── requirements.txt           # Python dependencies
+│
+└── logs/                      # Placeholder for logs and evaluation results
+    └── train_logs.txt         # Mock training log
